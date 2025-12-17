@@ -1,0 +1,161 @@
+id,name_de,sort_index_de,name@de,sortIndex@de
+1,"Obligationen, Schuldbuchforderungen",1,"Obligationen, Schuldbuchforderungen",1
+2,Pfandbriefe,2,Pfandbriefe,2
+3,Optionsanleihen,3,Optionsanleihen,3
+4,Notes,4,Notes,4
+5,Zerobonds,5,Zerobonds,5
+101,Aktien,6,Aktien,6
+102,Partizipationsschein,7,Partizipationsschein,7
+201,Kassenobligationen,8,Kassenobligationen,8
+202,Deutsche Sparobligation,9,Deutsche Sparobligation,9
+203,Banker's Acceptance,10,Banker's Acceptance,10
+301,Coupons / Talons,11,Coupons / Talons,11
+416,Diverse Hypoth. Schuldbriefarten,12,Diverse Hypoth. Schuldbriefarten,12
+418,Namenschuldbrief,13,Namenschuldbrief,13
+419,Hypothekarschuld Vorgang,14,Hypothekarschuld Vorgang,14
+420,Inhaberschuldbrief,15,Inhaberschuldbrief,15
+421,Eigentümerschuldbrief,16,Eigentümerschuldbrief,16
+422,GpfV (Kapital),17,GpfV (Kapital),17
+423,GpfV (Maximal),18,GpfV (Maximal),18
+424,Inhaberobligation mit GpfV,19,Inhaberobligation mit GpfV,19
+425,Gült,20,Gült,20
+426,Zettel,21,Zettel,21
+427,Deutsche Briefgrundschuld,22,Deutsche Briefgrundschuld,22
+428,Deutsche Buchgrundschuld,23,Deutsche Buchgrundschuld,23
+429,Leere Pfandstelle,24,Leere Pfandstelle,24
+430,Inhaber (ohne Grundstück),25,Inhaber (ohne Grundstück),25
+431,Deutsche Buchgrundschuld EUR,26,Deutsche Buchgrundschuld EUR,26
+432,GpfV (Kapital ohne Grundstück),27,GpfV (Kapital ohne Grundstück),27
+433,Darlehensvertrag,28,Darlehensvertrag,28
+434,Nebengebühr Schuldbrief,29,Nebengebühr Schuldbrief,29
+435,Registerschuldbrief,30,Registerschuldbrief,30
+450,Testament,31,Testament,31
+451,Schuldschein,32,Schuldschein,32
+452,verschlossene Depositen,33,verschlossene Depositen,33
+453,Wertgegenstand,34,Wertgegenstand,34
+454,Dokumente,35,Dokumente,35
+455,Diverse,36,Diverse,36
+501,Versicherungspolice,37,Versicherungspolice,37
+601,Hybride / Zertifikate ohne Zinskomponente,38,Hybride / Zertifikate ohne Zinskomponente,38
+602,Hybride / mit Zinskomponente,39,Hybride / mit Zinskomponente,39
+603,Hybride / Fonds ähnlich,40,Hybride / Fonds ähnlich,40
+604,Hybride / Kreditederivate,41,Hybride / Kreditederivate,41
+605,Strukt. Vorsorgeprodukte (standardisiert),42,Strukt. Vorsorgeprodukte (standardisiert),42
+606,Strukt. Vorsorgeprodukte (individuell),43,Strukt. Vorsorgeprodukte (individuell),43
+607,Krypto-basierte Securities Token,44,Krypto-basierte Securities Token,44
+701,Trustfonds,45,Trustfonds,45
+801,Zinssatz,46,Zinssatz,46
+901,Restquotenbescheinigung,47,Restquotenbescheinigung,47
+1001,Anrecht,48,Anrecht,48
+1101,Währung,49,Währung,49
+1102,Währungsnoten,50,Währungsnoten,50
+1201,Anlagefond,51,Anlagefond,51
+1301,Anteilschein,52,Anteilschein,52
+1401,eigenes Sparheft,53,eigenes Sparheft,53
+1402,fremdes Sparheft,54,fremdes Sparheft,54
+1501,Repurchase Agreements REPO,55,Repurchase Agreements REPO,55
+1601,Genussscheine,56,Genussscheine,56
+1901,Technischer Valor,57,Technischer Valor,57
+2001,Technischer Valor,58,Technischer Valor,58
+2101,Obligation mit variablem Zinssatz,59,Obligation mit variablem Zinssatz,59
+2102,Floating Rate Note,60,Floating Rate Note,60
+2103,Treasury Inflation-Protected Securities,61,Treasury Inflation-Protected Securities,61
+2201,Optionsschein,62,Optionsschein,62
+2301,REPO-Basket,63,REPO-Basket,63
+2501,Future,64,Future,64
+2601,Certficate of Deposit,65,Certficate of Deposit,65
+2602,Treasury Bill,66,Treasury Bill,66
+2603,Commercial Papers,67,Commercial Papers,67
+2604,Geldmarktbuchforderungen,68,Geldmarktbuchforderungen,68
+2605,Callgeld,69,Callgeld,69
+2606,Festgeld,70,Festgeld,70
+2607,Treuhand Callgeld,71,Treuhand Callgeld,71
+2608,Treuhand Festgeld,72,Treuhand Festgeld,72
+2701,Commodities,73,Commodities,73
+2702,Edelstein,74,Edelstein,74
+2801,Übrige Titel mit Cashflow,75,Übrige Titel mit Cashflow,75
+2901,Münze,76,Münze,76
+3001,Edelmetall,77,Edelmetall,77
+3101,Wandelanleihe,78,Wandelanleihe,78
+3102,Convertible Note,79,Convertible Note,79
+3201,Wertzertifikate Edelmetall,80,Wertzertifikate Edelmetall,80
+3301,Technischer Devisenvalor,81,Technischer Devisenvalor,81
+3401,Index,82,Index,82
+3501,Options,83,Options,83
+3502,OTC-Options,84,OTC-Options,84
+3503,Swaption,85,Swaption,85
+8001,Kryptowährung,86,Kryptowährung,86
+8011,Stablecoin,87,Stablecoin,87
+8021,Obligations-Token,88,Obligations-Token,88
+8022,Aktien-Token,89,Aktien-Token,89
+8023,Kunst & Sammelstücke Token,90,Kunst & Sammelstücke Token,90
+8024,Rendite-Token,91,Rendite-Token,91
+9001,Finanzkonten CHF,92,Finanzkonten CHF,92
+9002,Feste Vorschüsse,93,Feste Vorschüsse,93
+9003,Vorschuss auf Treuhand,94,Vorschuss auf Treuhand,94
+9004,Devisen auf Termin,95,Devisen auf Termin,95
+9005,Margenkonten,96,Margenkonten,96
+9006,Liquidationskonten,97,Liquidationskonten,97
+9007,Future's face value,98,Future's face value,98
+9008,Treuhandanlagen,99,Treuhandanlagen,99
+9009,Garantien,100,Garantien,100
+9010,Edelmetallkonten,101,Edelmetallkonten,101
+9011,Festgeldanlagen,102,Festgeldanlagen,102
+9012,Buchwert,103,Buchwert,103
+9013,Finanzkonten FWG,104,Finanzkonten FWG,104
+9021,Sparkonten,105,Sparkonten,105
+9022,Sparen3 Guthaben,106,Sparen3 Guthaben,106
+9023,Eigene Konti CHF,107,Eigene Konti CHF,107
+9024,Eigene Konti FW,108,Eigene Konti FW,108
+9090,Eigene Kassenobligationen,109,Eigene Kassenobligationen,109
+9119,Übrige Konten,110,Übrige Konten,110
+9129,Übrige Geldmarktanlagen,111,Übrige Geldmarktanlagen,111
+9139,Übrige Strukturierte Produkte mit MM- & FX-Charakter,112,Übrige Strukturierte Produkte mit MM- & FX-Charakter,112
+9149,Übrige Derivative MM- & FX-Instrumente,113,Übrige Derivative MM- & FX-Instrumente,113
+9219,Übrige Einzelobligationen,114,Übrige Einzelobligationen,114
+9229,Übrige Obligationenfonds,115,Übrige Obligationenfonds,115
+9239,Übrige Wandelanleihen-/fonds,116,Übrige Wandelanleihen-/fonds,116
+9249,Übrige Strukturierte Produkte mit Obligationencharakter,117,Übrige Strukturierte Produkte mit Obligationencharakter,117
+9259,Übrige Derivative Zinsinstrumente,118,Übrige Derivative Zinsinstrumente,118
+9319,Übrige Einzelaktien,119,Übrige Einzelaktien,119
+9329,Übrige Aktienfonds,120,Übrige Aktienfonds,120
+9339,Übrige Strukturierte Produkte mit Aktiencharakter,121,Übrige Strukturierte Produkte mit Aktiencharakter,121
+9349,Übrige Derivative Aktieninstrumente,122,Übrige Derivative Aktieninstrumente,122
+9419,Übrige Hedge-Fonds,123,Übrige Hedge-Fonds,123
+9429,Übrige Strukturierte Produkte mit Hedge-Fonds-Charakter,124,Übrige Strukturierte Produkte mit Hedge-Fonds-Charakter,124
+9439,Übrige Derivative Hedge-Fonds-Instrumente,125,Übrige Derivative Hedge-Fonds-Instrumente,125
+9441,Übrige Metallkonten & physische Verwahrung,126,Übrige Metallkonten & physische Verwahrung,126
+9442,Übrige Metallfonds,127,Übrige Metallfonds,127
+9443,Übrige Strukturierte Produkte mit Metallcharakter,128,Übrige Strukturierte Produkte mit Metallcharakter,128
+9444,Übrige Derivative Metallinstrumente,129,Übrige Derivative Metallinstrumente,129
+9451,Übrige Energieanlagen-Fonds,130,Übrige Energieanlagen-Fonds,130
+9452,Übrige Strukturierte Produkte mit Energieanlagen-Charakter,131,Übrige Strukturierte Produkte mit Energieanlagen-Charakter,131
+9453,Übrige Derivative Energieanlagen-Instrumente,132,Übrige Derivative Energieanlagen-Instrumente,132
+9461,Übrige Agrargüteranlagen-Fonds,133,Übrige Agrargüteranlagen-Fonds,133
+9462,Übrige Strukturierte Produkte mit Agrargüteranlagen-Charakter,134,Übrige Strukturierte Produkte mit Agrargüteranlagen-Charakter,134
+9463,Übrige Derivative Agrargüteranlagen-Instrumente,135,Übrige Derivative Agrargüteranlagen-Instrumente,135
+9471,Übrige Rohstoffanlagen-Fonds,136,Übrige Rohstoffanlagen-Fonds,136
+9472,Übrige Strukturierte Produkte mit Rohstoffcharakter,137,Übrige Strukturierte Produkte mit Rohstoffcharakter,137
+9473,Übrige Derivative Rohstoffinstrumente,138,Übrige Derivative Rohstoffinstrumente,138
+9481,Übrige Opportunistische Anlagen-Fonds,139,Übrige Opportunistische Anlagen-Fonds,139
+9482,Übrige Strukturierte Produkte mit Opportunistische Anlagen-Charakter,140,Übrige Strukturierte Produkte mit Opportunistische Anlagen-Charakter,140
+9483,Übrige Derivative Opportunistische Anlagen-Instrumente,141,Übrige Derivative Opportunistische Anlagen-Instrumente,141
+9510,Übrige Direktanlagen,142,Übrige Direktanlagen,142
+9520,Übrige Immobilienfonds,143,Übrige Immobilienfonds,143
+9530,Übrige Strukturierte Produkte mit Immobiliencharakter,144,Übrige Strukturierte Produkte mit Immobiliencharakter,144
+9540,Übrige Derivative Immobilieninstrumente,145,Übrige Derivative Immobilieninstrumente,145
+9719,Übrige Derivate Finanzinstrumente - Liquidität unterliegend,146,Übrige Derivate Finanzinstrumente - Liquidität unterliegend,146
+9729,Übrige Derivate Finanzinstrumente - Obligationen unterliegend,147,Übrige Derivate Finanzinstrumente - Obligationen unterliegend,147
+9739,Übrige Derivate Finanzinstrumente - Aktien unterliegend,148,Übrige Derivate Finanzinstrumente - Aktien unterliegend,148
+9749,Übrige Derivate Finanzinstrumente - Alternative Anlagen unterliegend,149,Übrige Derivate Finanzinstrumente - Alternative Anlagen unterliegend,149
+9759,Übrige Derivate Finanzinstrumente - Immobilien unterliegend,150,Übrige Derivate Finanzinstrumente - Immobilien unterliegend,150
+9769,Übrige Derivate Finanzinstrumente - Rohstoffe unterliegend,151,Übrige Derivate Finanzinstrumente - Rohstoffe unterliegend,151
+9779,Übrige Derivate Finanzinstrumente - Diverses unterliegend,152,Übrige Derivate Finanzinstrumente - Diverses unterliegend,152
+9819,Übrige Diverse Einzelanlagen,153,Übrige Diverse Einzelanlagen,153
+9829,Übrige Diverse Investment Fonds,154,Übrige Diverse Investment Fonds,154
+9839,Übrige Diverse Strukturierte Produkte,155,Übrige Diverse Strukturierte Produkte,155
+9849,Übrige Diverse Derivative Instrumente,156,Übrige Diverse Derivative Instrumente,156
+9907,Übrige BOL manuell hinzugefügt,157,Übrige BOL manuell hinzugefügt,157
+9991,Anlagegruppe SWC AST,158,Anlagegruppe SWC AST,158
+9998,Depot,159,Depot,159
+9999,Undefiniert,160,Undefiniert,160

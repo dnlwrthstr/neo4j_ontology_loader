@@ -1,0 +1,5 @@
+neo4j>=5.20.0
+pydantic>=2.7.0
+pandas>=2.2.0
+typer>=0.12.0
+python-dotenv>=1.0.1
