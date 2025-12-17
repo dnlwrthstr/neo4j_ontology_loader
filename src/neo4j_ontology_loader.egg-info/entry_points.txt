@@ -1,2 +1,0 @@
-[console_scripts]
-neo4j-ontology-loader = neo4j_ontology_loader.cli:app
