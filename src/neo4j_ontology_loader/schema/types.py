@@ -9,7 +9,18 @@ class PropertyDef:
     unique: bool
 
 @dataclass(frozen=True)
-class NodeTypeDef:
+class ComplexPropertiesDef:
+    """Schema definition for an ObjectProperty node type.
+
+    ObjectProperty nodes represent embedded objects from domain models. They can
+    have simple properties (basic types) and/or nested ObjectProperty links.
+    """
+    name: str
+    key: str
+    properties: list[PropertyDef]
+
+@dataclass(frozen=True)
+class EntityDef:
     name: str
     key: str
     properties: list[PropertyDef]

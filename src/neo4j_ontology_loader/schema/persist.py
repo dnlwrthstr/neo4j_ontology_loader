@@ -1,15 +1,15 @@
 from neo4j import Driver
-from neo4j_ontology_loader.schema.types import NodeTypeDef, RelTypeDef
+from neo4j_ontology_loader.schema.types import EntityDef, RelTypeDef
 
-ONTO_NODE = "NodeType"
+ONTO_NODE = "Entity"
 ONTO_PROP = "PropertyDefinition"
 ONTO_REL = "RelType"
 
-def persist_schema(driver: Driver, node: NodeTypeDef) -> None:
+def persist_schema(driver: Driver, node: EntityDef) -> None:
     with driver.session() as session:
         session.execute_write(_persist_node_type, node)
 
-def _persist_node_type(tx, node: NodeTypeDef) -> None:
+def _persist_node_type(tx, node: EntityDef) -> None:
     tx.run(
         f"MERGE (n:{ONTO_NODE} {{name: $name, key: $key}}) SET n.abstract = $abstract",
         name=node.name,

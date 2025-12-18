@@ -5,8 +5,6 @@ from neo4j_ontology_loader.neo4j.driver import create_driver
 from neo4j_ontology_loader.schema.extract import (
     extract_node_type,
     all_relationship_types,
-    property_relationship_types,
-    bond_property_relationship_types,
     inheritance_relationship_types,
 )
 from neo4j_ontology_loader.schema.ddl import constraint_cypher
@@ -16,7 +14,7 @@ from neo4j_ontology_loader.schema.ddl_maintenance import (
     clean_database as clean_database_maintenance,
 )
 from neo4j_ontology_loader.schema.ddl_szkb import szkb_loading_indexes
-from neo4j_ontology_loader.schema.types import NodeTypeDef, PropertyDef
+from neo4j_ontology_loader.schema.types import EntityDef, PropertyDef
 
 from neo4j_ontology_loader.models.issuer import Issuer
 from neo4j_ontology_loader.models.instrument_type import InstrumentType
@@ -88,7 +86,7 @@ def install_schema():
 
         # Bond model has nested complex fields and a currently incompatible import.
         # We only persist what we can reliably map from SZKB bonds.csv.
-        bond_node = NodeTypeDef(
+        bond_node = EntityDef(
             name="Bond",
             key="bond",
             properties=[
@@ -116,10 +114,6 @@ def install_schema():
         # Persist relationship type definitions in ontology graph
         # Core relationships among primary entities
         persist_relationship_types(driver, all_relationship_types())
-        # Property-as-relationship definitions for type system
-        persist_relationship_types(driver, property_relationship_types())
-        # Bond embedded objects become relations (schema-level)
-        persist_relationship_types(driver, bond_property_relationship_types())
         # Inheritance relations from concrete subtypes to abstract FinancialInstrument
         persist_relationship_types(driver, inheritance_relationship_types())
         typer.echo("Schema installed (ontology persisted + constraints applied).")

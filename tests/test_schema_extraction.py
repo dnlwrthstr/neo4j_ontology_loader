@@ -89,24 +89,23 @@ def test_extract_rel_type_custom_models():
 
 def test_all_relationship_types_structure_and_keys():
     rels = all_relationship_types()
-    # Expect 7 definitions from the project mapping
-    assert len(rels) == 7
+    # After making abstract classes marker-only, only non-abstract endpoint
+    # relationships remain here.
+    assert len(rels) == 2
 
     # Spot check a couple of entries for correct labels and snake_case keys
     names = {r.name for r in rels}
-    assert {
-        "IssuedBy",
-        "UltimatelyIssuedBy",
-        "HasType",
-        "MainTradingPlace",
-        "ListingOfInstrument",
-        "ListedOn",
-        "QuoteOfListing",
-    } <= names
+    assert {"ListedOn", "QuoteOfListing"} == names
 
-    # Find one relation and check endpoint keys
-    has_type = next(r for r in rels if r.name == "HasType")
-    assert has_type.from_label == "FinancialInstrument"
-    assert has_type.to_label == "InstrumentType"
-    assert has_type.from_key == "financial_instrument"
-    assert has_type.to_key == "instrument_type"
+    # Spot check endpoint keys for remaining relations
+    listed_on = next(r for r in rels if r.name == "ListedOn")
+    assert listed_on.from_label == "Listing"
+    assert listed_on.to_label == "TradingVenue"
+    assert listed_on.from_key == "listing"
+    assert listed_on.to_key == "trading_venue"
+
+    quote_of_listing = next(r for r in rels if r.name == "QuoteOfListing")
+    assert quote_of_listing.from_label == "Quote"
+    assert quote_of_listing.to_label == "Listing"
+    assert quote_of_listing.from_key == "quote"
+    assert quote_of_listing.to_key == "listing"

@@ -1,7 +1,7 @@
-from neo4j_ontology_loader.schema.types import NodeTypeDef
+from neo4j_ontology_loader.schema.types import EntityDef
 
 
-def constraint_cypher(node: NodeTypeDef) -> list[str]:
+def constraint_cypher(node: EntityDef) -> list[str]:
     cyphers: list[str] = []
     # Do not create constraints for abstract node types
     if getattr(node, "abstract", False):
